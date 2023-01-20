@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
+
+/* Setting the box-size border-box */
+
+* {
+        margin: 0;
+        padding: 0;
+	box-sizing: border-box;
+}
+
+/* Styling the body section */
+
+body p{
+	color: #727272;
+}
+
+body {
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto Slab', serif;
+}
+.brand-name{
+	font-weight: bold;
+	font-size: 32px;
+	cursor: pointer;
+}
+.brand-color{
+	color: #FF900E;
+	font-weight: bold;
+}
+.banner{
+	background-color: rgba(255, 144, 14, 0.1);
+}
+.title-section{
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* Navigation */
+nav{
+	background-color:rgba(255, 144, 14, 0.1);
+	padding-bottom: 80px;
+	padding-top: 20px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.nav ul{
+	display: flex;
+	list-style: none;
+}
+.nav ul li{
+	padding: 15px;
+	cursor: pointer;
+}
+
+/* Banner Part Css */
+.headline{
+	text-align: center;
+	font-size: 64px;
+}
+.btn{
+	text-align: center;
+	margin-top: 10px;
+}
+.brand-btn{
+	padding: 12px 20px;
+	background-color: #FF900E;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: 2px solid #FF900E;
+	color: white;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.banner-img{
+	width: 80%;
+	margin: 20px auto;
+	padding: 60px 0;
+}
+
+.banner-img img{
+	width: 100%;
+}
+
+/* Quick Section Features CSS */
+.feature-text{
+	margin-left: 20px;
+}
+.features{
+	width: 80%;
+	margin: 80px auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+.quick{
+	color: #727272;
+	margin: 10px 0;
+}
+.of{
+	color: #131313;
+	font-weight: bold;
+}
+
+.feature-img{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.feature-img img{
+	width: 330px;
+	padding: 12px;
+}
+
+/* Feature Details Section: */
+.feature-details{
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	width: 80%;
+	margin: 60px auto;
+}
+.feature-headline{
+	font-size: 45px;
+	font-weight: bold;
+	border-left: 5px solid #FF900E;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.feature-text p{
+	margin: 25px 0px;
+}
+.feature-des{
+	padding: 20px 20px;
+	box-shadow: 0 0 25px rgb(224, 221, 221);
+	margin: 15px;
+	border-radius: 5px;
+}
+.feature-details-img{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 50px;
+}
+.feature-details-img img{
+	width: 90%;
+}
+.feature-des p{
+	margin: 10px 0;
+}
+
+/* Experience Button */
+.ex-btn{
+	width: 310px;
+	position: relative;
+	bottom: 100px;
+	right: 25px;
+}
+.ex-btn{
+	background-color: #FF900E;
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+.ex-btn h1{
+	font-size: 65px;
+	font-weight: 500;
+	padding-top: 10px;
+	color: white;
+}
+.ex-btn p{
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: white;
+}
+
+/* Some Facts Section: */
+.facts{
+	width: 80%;
+	margin: 0 auto;
+}
+.facts h1{
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.facts p{
+	margin: 15px 0;
+}
+.facts-details{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 7%;
+	margin: 60px 0;
+}
+.facts-icon{
+	border: 2px solid #FF900E;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	justify-content:center;
+	text-align: center;
+}
+
+.facts-icon:hover{
+	background-color: #FF900E;
+	transform: scale(1.1);
+	transition: transform 1s ease-in-out;
+}
+
+/* Sponsors Section CSS */
+.sponsors{
+	width: 80%;
+	margin: 50px auto;
+}
+.sponsors-details{
+	text-align: center;
+}
+.sponsors-details h1{
+	font-size:45px;
+	margin: 15px 0;
+}
+.sponsors-img{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+}
+.sponsors-img img{
+	margin: 0 auto;
+}
+
+/* Contact Section */
+.contact{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	width: 80%;
+	margin: 50px auto;
+	justify-items: center;
+}
+.contact-title{
+	margin-top: 80px;
+	text-align: center;
+	font-size: 32px;
+}
+.contact-img{
+	width: 80%;
+}
+.contact-img img{
+	width: 100%;
+}
+form input,textarea{
+	width: 350px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+footer{
+	width: 80%;
+	margin: 20px auto;
+	background-color: #FFF4E7;
+	padding: 20px;
+	text-align: center;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 600px){
+	/* Navigation */
+	.nav{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+	.nav ul{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	.headline{
+		text-align: center;
+		font-size: 30px;
+	}
+
+	/* Feature Section */
+	.features{
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		justify-content: center;
+	}
+	.feature-img{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		justify-content: center;
+	}
+	.feature-img img{
+		width: 270px;
+		padding: 12px;
+	}
+
+	/* Feature Details Section */
+	.feature-details{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.ex-btn{
+		width: 150px;
+		position: relative;
+		bottom: 50px;
+		right: 15px;
+	}
+	.ex-btn h1{
+		font-size: 30px;
+		font-weight: 500;
+		padding-top: 10px;
+		color: white;
+	}
+	.ex-btn p{
+		padding-bottom: 20px;
+		font-size: 15px;
+		color: white;
+	}
+	.feature-details-img{
+		margin-top: 30px;
+	}
+
+	/* Facts Section: */
+	.facts h1{
+		font-size: 28px;
+	}
+	.facts-details{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	/* Sponsor Section */
+	.sponsors{
+		margin-top: 45%;
+	}
+	.sponsors-img{
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 25px;
+	}
+
+	/* Contact */
+	.contact{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	form input,textarea{
+		width: 270px;
+	}
+}
+/* Complete CSS */
